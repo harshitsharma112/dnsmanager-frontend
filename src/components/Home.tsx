@@ -8,12 +8,12 @@ export function Home() {
            
         <div className=" lg:flex text-center justify-center  font-mono" >
             
-           <div className="lg:w-1/2  bg-cover bg-fit xs:px-56     bg-center sl:bg-cover md:bg-cover  xs:bg-cover  bg-gray-100 h-screen w-screen   p-8 space-y-8  justify-center xs:bg-none 
+           <div className="lg:w-1/2 lg:h-auto   bg-cover bg-fit xs:w-auto xs:h-96    bg-center sl:bg-cover md:bg-cover  xs:bg-cover  bg-gray-100 h-screen w-screen   p-8 space-y-8  
             bg-no-repeat items-center"  style={{backgroundImage:`url(${dnsimage3})`}} > 
         </div>
            
-            <div className="lg:w-3/5 lg:max-h-screen bg-cover xs:justify-center  bg-amber-200 ">
-                <div className="flex flex-cols lg:h-screen sticky  justify-center items-center">
+            <div className="lg:w-3/5 bg-cover xs:justify-center  bg-amber-200 ">
+                <div className="flex flex-cols lg:h-auto w-auto sticky  bg-cover justify-center items-center">
                     <Credentails />
                 </div>
 
